@@ -1,4 +1,4 @@
-# notthebee/infra
+# pvgdevelop/infra 
 
 An Ansible playbook that sets up an Ubuntu-based server with reasonable security, auto-updates, e-mail notifications for S.M.A.R.T. and Snapraid errors. Currently being completely rewritten
 
@@ -7,6 +7,7 @@ It assumes a fresh Ubuntu Server 20.04 install, access to a non-root user with s
 The playbook is mostly being developed for personal use, so stuff is going to be constantly changing and breaking. Use at your own risk and don't expect any help in setting it up on your machine.
 
 ## Special thanks
+* Wolfgang for putting it all togather in his [infra project](https://github.com/notthebee/infra)
 * David Stephens for his [Ansible NAS](https://github.com/davestephens/ansible-nas) project. This is where I got the idea and "borrowed" a lot of concepts and implementations from.
 * Jeff Geerling for his book, [Ansible for DevOps](https://www.ansiblefordevops.com/) and his [Ansible 101 series](https://www.youtube.com/watch?v=goclfp6a2IQ&list=PL2_OBreMn7FqZkvMYt6ATmgC0KAGGJNAN) on YouTube.
 * Jonathan Hanson for his [SSH port juggling](https://gist.github.com/triplepoint/1ad6c6060c0f12112403d98180bcf0b4) implementation.
